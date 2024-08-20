@@ -21,10 +21,11 @@ nav {
   right: 50px; */
   inset: 0 50px 0 0;
   transition: .3s;
+  transform: translateX(-100%);
 }
 
-nav.closed {
-  transform: translateX(-100%);
+nav.open {
+  transform: translateX(0%);
 }
 
 main {
